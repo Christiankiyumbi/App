@@ -22,6 +22,14 @@ const pages = {
             icon: icons.LoginOutlined,
             target: true
         },
+        // {
+        //     id: 'CreerAnneAcad',
+        //     title: 'Creer annee academique',
+        //     type: 'item',
+        //     url: '/CreerAnneeAcade',
+        //     icon: icons.LoginOutlined,
+        //     target: true
+        // },
         {
             id: 'register1',
             title: 'Register',
