@@ -1,9 +1,9 @@
 // assets
-import { DashboardOutlined } from '@ant-design/icons';
+import { RightOutlined } from '@ant-design/icons';
 
 // icons
 const icons = {
-    DashboardOutlined
+    RightOutlined
 };
 
 // ==============================|| MENU ITEMS - DASHBOARD ||============================== //
@@ -18,7 +18,7 @@ const administrateur = {
             title: 'Coordonateurs',
             type: 'item',
             url: '/coordonateurs',
-            icon: icons.DashboardOutlined,
+            icon: icons.RightOutlined,
             breadcrumbs: false
         },
         {
@@ -26,7 +26,7 @@ const administrateur = {
             title: 'Filières',
             type: 'item',
             url: '/filieres',
-            icon: icons.DashboardOutlined,
+            icon: icons.RightOutlined,
             breadcrumbs: false
         },
         {
@@ -34,7 +34,7 @@ const administrateur = {
             title: 'Années académiques',
             type: 'item',
             url: '/annees-academiques',
-            icon: icons.DashboardOutlined,
+            icon: icons.RightOutlined,
             breadcrumbs: false
         },
         {
@@ -42,7 +42,7 @@ const administrateur = {
             title: 'Années académiques',
             type: 'item',
             url: '/promotions',
-            icon: icons.DashboardOutlined,
+            icon: icons.RightOutlined,
             breadcrumbs: false
         }
     ]

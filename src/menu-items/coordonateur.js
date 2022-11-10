@@ -1,9 +1,9 @@
 // assets
-import { DashboardOutlined } from '@ant-design/icons';
+import { RightOutlined } from '@ant-design/icons';
 
 // icons
 const icons = {
-    DashboardOutlined
+    RightOutlined
 };
 
 // ==============================|| MENU ITEMS - DASHBOARD ||============================== //
@@ -18,7 +18,7 @@ const coordonateur = {
             title: 'Séances',
             type: 'item',
             url: '/seances',
-            icon: icons.DashboardOutlined,
+            icon: icons.RightOutlined,
             breadcrumbs: false
         },
         {
@@ -26,7 +26,7 @@ const coordonateur = {
             title: 'Présences',
             type: 'item',
             url: '/presences',
-            icon: icons.DashboardOutlined,
+            icon: icons.RightOutlined,
             breadcrumbs: false
         },
         {
@@ -34,7 +34,7 @@ const coordonateur = {
             title: 'Validation de réinscription',
             type: 'item',
             url: '/inscription-validation',
-            icon: icons.DashboardOutlined,
+            icon: icons.RightOutlined,
             breadcrumbs: false
         }
     ]

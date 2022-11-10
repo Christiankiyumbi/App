@@ -1,9 +1,9 @@
 // assets
-import { DashboardOutlined } from '@ant-design/icons';
+import { RightOutlined } from '@ant-design/icons';
 
 // icons
 const icons = {
-    DashboardOutlined
+    RightOutlined
 };
 
 // ==============================|| MENU ITEMS - DASHBOARD ||============================== //
@@ -18,7 +18,7 @@ const appariteur = {
             title: "Validation d'inscription",
             type: 'item',
             url: '/validation',
-            icon: icons.DashboardOutlined,
+            icon: icons.RightOutlined,
             breadcrumbs: false
         }
     ]
