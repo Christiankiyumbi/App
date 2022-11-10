@@ -11,25 +11,17 @@ const icons = {
 
 const pages = {
     id: 'authentication',
-    title: 'Authentication',
+    title: 'Authentification',
     type: 'group',
     children: [
         {
             id: 'login1',
-            title: 'Login',
+            title: 'Se connecter',
             type: 'item',
             url: '/login',
             icon: icons.LoginOutlined,
             target: true
         },
-        // {
-        //     id: 'CreerAnneAcad',
-        //     title: 'Creer annee academique',
-        //     type: 'item',
-        //     url: '/CreerAnneeAcade',
-        //     icon: icons.LoginOutlined,
-        //     target: true
-        // },
         {
             id: 'register1',
             title: 'Register',

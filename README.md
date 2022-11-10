@@ -1,6 +1,6 @@
 
 # Gestion des étudiants
-    - [Description à compléter](https://jenesaispas.com)
+- [Description à compléter](https://jenesaispas.com)
 
 ## Pages 
 

@@ -8,20 +8,20 @@ const icons = {
 
 // ==============================|| MENU ITEMS - DASHBOARD ||============================== //
 
-const dashboard = {
+const appariteur = {
     id: 'group-dashboard',
-    title: 'Navigation',
+    title: 'Appariteur',
     type: 'group',
     children: [
         {
-            id: 'dashboard',
-            title: 'Tableau de bord',
+            id: 'validation',
+            title: "Validation d'inscription",
             type: 'item',
-            url: '/dashboard/default',
+            url: '/validation',
             icon: icons.DashboardOutlined,
             breadcrumbs: false
         }
     ]
 };
 
-export default dashboard;
+export default appariteur;

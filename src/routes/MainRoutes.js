@@ -25,8 +25,8 @@ const MainRoutes = {
     children: [
         {
             path: '/',
-            element: <AuthLogin />
-            // element: <DashboardDefault />
+            // element: <AuthLogin />
+            element: <DashboardDefault />
         },
         {
             path: 'color',
