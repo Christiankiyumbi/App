@@ -16,6 +16,7 @@ const Color = Loadable(lazy(() => import('pages/components-overview/Color')));
 const Shadow = Loadable(lazy(() => import('pages/components-overview/Shadow')));
 const AntIcons = Loadable(lazy(() => import('pages/components-overview/AntIcons')));
 
+const AuthLogin = Loadable(lazy(() => import('pages/authentication/Login')));
 // ==============================|| MAIN ROUTING ||============================== //
 
 const MainRoutes = {
@@ -24,7 +25,8 @@ const MainRoutes = {
     children: [
         {
             path: '/',
-            element: <DashboardDefault />
+            element: <AuthLogin />
+            // element: <DashboardDefault />
         },
         {
             path: 'color',

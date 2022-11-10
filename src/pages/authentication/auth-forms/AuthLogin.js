@@ -47,13 +47,13 @@ const AuthLogin = () => {
         <>
             <Formik
                 initialValues={{
-                    email: 'info@codedthemes.com',
-                    password: '123456',
+                    email: '22ab001@esisalama.org',
+                    password: '**** ****',
                     submit: null
                 }}
                 validationSchema={Yup.object().shape({
-                    email: Yup.string().email('Must be a valid email').max(255).required('Email is required'),
-                    password: Yup.string().max(255).required('Password is required')
+                    email: Yup.string().email('Entrez un email valid').max(255).required('Email requis'),
+                    password: Yup.string().max(255).required('Mot de passe requis')
                 })}
                 onSubmit={async (values, { setErrors, setStatus, setSubmitting }) => {
                     try {
@@ -71,7 +71,7 @@ const AuthLogin = () => {
                         <Grid container spacing={3}>
                             <Grid item xs={12}>
                                 <Stack spacing={1}>
-                                    <InputLabel htmlFor="email-login">Email Address</InputLabel>
+                                    <InputLabel htmlFor="email-login">Adresse Email</InputLabel>
                                     <OutlinedInput
                                         id="email-login"
                                         type="email"
@@ -92,7 +92,7 @@ const AuthLogin = () => {
                             </Grid>
                             <Grid item xs={12}>
                                 <Stack spacing={1}>
-                                    <InputLabel htmlFor="password-login">Password</InputLabel>
+                                    <InputLabel htmlFor="password-login">Mot de passe</InputLabel>
                                     <OutlinedInput
                                         fullWidth
                                         error={Boolean(touched.password && errors.password)}
@@ -137,10 +137,10 @@ const AuthLogin = () => {
                                                 size="small"
                                             />
                                         }
-                                        label={<Typography variant="h6">Keep me sign in</Typography>}
+                                        label={<Typography variant="h6">Me garder connecter</Typography>}
                                     />
                                     <Link variant="h6" component={RouterLink} to="" color="text.primary">
-                                        Forgot Password?
+                                        Mot de passe oublié ?
                                     </Link>
                                 </Stack>
                             </Grid>
@@ -159,14 +159,15 @@ const AuthLogin = () => {
                                         type="submit"
                                         variant="contained"
                                         color="primary"
+                                        href="dashboard/default"
                                     >
-                                        Login
+                                        Se connecter
                                     </Button>
                                 </AnimateButton>
                             </Grid>
                             <Grid item xs={12}>
                                 <Divider>
-                                    <Typography variant="caption"> Login with</Typography>
+                                    <Typography variant="caption"> Se connecter</Typography>
                                 </Divider>
                             </Grid>
                             <Grid item xs={12}>
