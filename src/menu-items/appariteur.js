@@ -20,6 +20,14 @@ const appariteur = {
             url: '/validation',
             icon: icons.RightOutlined,
             breadcrumbs: false
+        },
+        {
+            id: 'inscription-validation',
+            title: 'Validation de réinscription',
+            type: 'item',
+            url: '/inscription-validation',
+            icon: icons.RightOutlined,
+            breadcrumbs: false
         }
     ]
 };

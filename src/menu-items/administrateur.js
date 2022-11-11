@@ -39,7 +39,7 @@ const administrateur = {
         },
         {
             id: 'promotions',
-            title: 'Années académiques',
+            title: 'Promotions',
             type: 'item',
             url: '/promotions',
             icon: icons.RightOutlined,

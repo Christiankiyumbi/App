@@ -30,10 +30,10 @@ const coordonateur = {
             breadcrumbs: false
         },
         {
-            id: 'inscription-validation',
-            title: 'Validation de réinscription',
+            id: 'etudiants',
+            title: 'Etudiants',
             type: 'item',
-            url: '/inscription-validation',
+            url: '/etudiants',
             icon: icons.RightOutlined,
             breadcrumbs: false
         }

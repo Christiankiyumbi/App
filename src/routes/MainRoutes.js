@@ -17,6 +17,15 @@ const Shadow = Loadable(lazy(() => import('pages/components-overview/Shadow')));
 const AntIcons = Loadable(lazy(() => import('pages/components-overview/AntIcons')));
 
 const AuthLogin = Loadable(lazy(() => import('pages/authentication/Login')));
+
+// render - Gerer les pages
+const GererAnneeAcademique = Loadable(lazy(() => import('pages/components-overview/GererAnneeAcademique')));
+const GererEtudiant = Loadable(lazy(() => import('pages/components-overview/GererEtudiant')));
+const GererFiliere = Loadable(lazy(() => import('pages/components-overview/GererFiliere')));
+const GererPresence = Loadable(lazy(() => import('pages/components-overview/GererPresence')));
+const GererPromotion = Loadable(lazy(() => import('pages/components-overview/GererPromotion')));
+const GererSeance = Loadable(lazy(() => import('pages/components-overview/GererSeance')));
+const TauxDeParticipation = Loadable(lazy(() => import('pages/components-overview/TauxDeParticipation')));
 // ==============================|| MAIN ROUTING ||============================== //
 
 const MainRoutes = {
@@ -25,7 +34,6 @@ const MainRoutes = {
     children: [
         {
             path: '/',
-            // element: <AuthLogin />
             element: <DashboardDefault />
         },
         {
@@ -56,6 +64,30 @@ const MainRoutes = {
         {
             path: 'icons/ant',
             element: <AntIcons />
+        },
+        {
+            path: 'annees-academiques',
+            element: <GererAnneeAcademique />
+        },
+        {
+            path: 'etudiants',
+            element: <GererEtudiant />
+        },
+        {
+            path: 'filieres',
+            element: <GererFiliere />
+        },
+        {
+            path: 'presences',
+            element: <GererPresence />
+        },
+        {
+            path: 'promotions',
+            element: <GererPromotion />
+        },
+        {
+            path: 'seances',
+            element: <GererSeance />
         }
     ]
 };
